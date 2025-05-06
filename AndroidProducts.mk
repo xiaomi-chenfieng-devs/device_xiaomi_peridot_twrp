@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_chenfing.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_chenfeng.mk
 
-COMMON_LUNCH_CHOICES := twrp_chenfing-eng
+COMMON_LUNCH_CHOICES := twrp_chenfeng-eng
