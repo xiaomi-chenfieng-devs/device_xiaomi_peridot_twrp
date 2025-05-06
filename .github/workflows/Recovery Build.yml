@@ -172,4 +172,4 @@ jobs:
           Image Name: TWRP_${{ github.event.inputs.TWRP_VERSION }}_${{ github.event.inputs.MODEL_NAME }}.img
           Target: ${{ github.event.inputs.BUILD_TARGET }}.img
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
