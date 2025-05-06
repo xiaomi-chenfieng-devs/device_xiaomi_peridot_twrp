@@ -10,7 +10,7 @@ DEVICE_PATH := device/xiaomi/chenfeng
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := chenfing
+PRODUCT_RELEASE_NAME := chenfeng
 
 ## Device identifier
 PRODUCT_DEVICE := chenfeng
