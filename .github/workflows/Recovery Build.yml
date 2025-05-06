@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/grass2/device_xiaomi_peridot_twrp'
+        default: 'https://github.com/cyberDay777/device_xiaomi_peridot_twrp'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -22,11 +22,11 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/peridot'
+        default: 'device/xiaomi/chenfeng'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'peridot'
+        default: 'chenfeng'
       TWRP_VERSION:
         description: 'TWRP_VERSION'
         required: true
@@ -34,11 +34,11 @@ on:
       MODEL_NAME:
         description: 'MODEL_NAME'
         required: true
-        default: 'RedmiTurbo3_PocoF6_peridot_A14_grass2'
+        default: 'xiaomi_civi_14_chenfeng_cyberDay777'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_peridot'
+        default: 'twrp_chenfeng'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
@@ -110,8 +110,8 @@ jobs:
         mkdir workspace
         cd workspace
         echo "workspace-folder=$(pwd)" >> $GITHUB_OUTPUT
-        git config --global user.name "Nico170420"
-        git config --global user.email "b170420nc@gmail.com"
+        git config --global user.name "cyberDay777"
+        git config --global user.email "asacademybhind@gmail.com"
         repo init --depth=1 -u ${{ github.event.inputs.MANIFEST_URL }} -b ${{ github.event.inputs.MANIFEST_BRANCH }}
       id: pwd
           
